@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+}
+
+html {
+    background-image: linear-gradient(rgba(170, 157, 255, 1), rgb(90, 74, 163));
+    background-repeat: no-repeat;
+    height: 100%;
+}
+div {
+    width: 450px;
+    height: 500px;
+    margin: 20% auto;
+    background-color: rgba(35, 28, 45, 0.899);
+    padding-top: 10px;
+    box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.5) ;
+    border-radius: 30px;
+}
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 50px;
+    text-align: center;
+    text-shadow: 2px 7px 10px rgba(0, 0, 0, 0.5) ;
+}
+.bill {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+    text-shadow: 2px 7px 10px rgba(0, 0, 0, 0.5) ;
+    
+}
+.box {
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    width: 390px;
+    height: 30px;
+    margin-top: 10px;
+    background-color:rgba(170, 157, 255, 0.222) ;
+    border-color: white;
+    border-width: 2px;
+    border-style:solid;
+}
+.people {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 7px 10px rgba(0, 0, 0, 0.5) ;
+    margin: 30px;
+    margin-bottom: 5pt;
+}
+.button {
+    background-color:rgba(170, 157, 255, 1) ;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    box-shadow:2px 7px 10px rgba(0, 0, 0, 0.5) ;
+    display: inline-block;
+}
+li{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    list-style-type: none;
+}
+.adad {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(196, 187, 252);
+}
+.box:hover{
+    background-color: rgba(170, 157, 255, 0.429);
+}
+::placeholder {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 7px;
+}
